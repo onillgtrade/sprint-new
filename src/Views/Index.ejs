@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>IndexPrincipal</title>
+    <!-- Ejs tiene modificado o actualizado la manera de escritura, revisar documentacion en caso de errores -->
+    <%- include('Partials/Header'); %>
+  </head>
+  <body>
+
+    <%- include('Partials/Navigations'); %>
+
+    <%- include('Partials/Title.main.ejs'); %>
+    <div class="container p-4 ">
+      <div class="row">
+        <!--  <%- include ('../Routes/index.js'); %> -->
+        <% prods.forEach(function (prods){ %>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header"><%= prods.title %></div>
+            <img src="<%= prods.image %>" class="card-img-top">
+            <div class="card-body">
+              <p><%= prods.description %></p>
+            </div>
+            <div class="card-body">
+              <p>$ <%= prods.price %></p>
+            </div>
+            <!-- <div class="card-footer">
+                <a href="/Delete/<%= prods.id %>" class="btn btn-danger">Delete</a>
+            </div> -->
+            <div class="form-group">
+              <label for="price">shopping cart</label>
+          <input type="button" value="+" id="btn-add">
+          </div>
+          </div>
+          
+        </div>
+
+        <% }); %>
+      </div>
+    </div>
+    <%- include('Partials/Footer'); %>
+  </body>
+</html>

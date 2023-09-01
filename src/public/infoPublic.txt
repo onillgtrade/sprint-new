@@ -1,0 +1,1 @@
+En esta carpeta se almacenan imagenes, estilos .css etc, todo lo que sea de manera estatica.

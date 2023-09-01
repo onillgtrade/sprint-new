@@ -1,0 +1,23 @@
+[
+  {
+    "id": "8b67f850-0be3-48f9-9323-f1c8bfff45d5",
+    "title": "bicycles gym",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2021/1/RY/QO/FH/12303248/lifelong-llf54-jpg.jpg",
+    "description": "pro bike",
+    "price": "458877"
+  },
+  {
+    "id": "dbd8173d-0d8b-442e-8580-33c2cf6d9965",
+    "title": "Dumbbells",
+    "image": "https://sportshub.cbsistatic.com/i/r/2023/07/27/721700f3-7226-48a2-a19c-6246098a9c8c/resize/750x422/7eb838a2092c0228058d6e2c768f3eec/bowflex-adjustable-weights-552-hero.jpg",
+    "description": "The Best Iron Dumbbells",
+    "price": "$ 59788"
+  },
+  {
+    "id": "c660af97-0a67-4b8d-b588-48455ce1a020",
+    "title": "Bench press",
+    "image": "https://www.lifefitness-latinamerica.com/resource/image/773288/portrait_ratio1x1/400/400/6f87ec6b86640bab8a0250ad27189260/sz/hammerstrength-olympic-flat-bench-l.png",
+    "description": "Bench press",
+    "price": "$ 59788"
+  }
+]

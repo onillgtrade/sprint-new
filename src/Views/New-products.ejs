@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>New-Products</title>
+        <%- include ('Partials/Header.ejs'); %>
+        
+    </head>
+    <body>
+        <%- include('Partials/Navigations'); %>
+        <%- include('Partials/Title.main.ejs'); %>
+        <div class="container p-4" >
+            <form method="POST" action="/new-products" class="card card-body">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                <input class="form-control" type="text" name="title" id="title" placeholder="Entry a new title" autofocus required>
+                </div>
+                <div class="form-group">
+                    <label for="title">Imagen</label>
+                <input class="form-control" type="text" name="image" id="image" placeholder="https://website-images.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                <textarea class="form-control" type="text" name="description" id="description" placeholder="Describe the books" required></textarea>
+                </div> 
+                <div class="form-group">
+                    <label for="price">Price</label>
+                <input class="form-control" type="text" name="price" id="price" placeholder="New Price" required>
+                </div> 
+                
+                <input type="submit" value="Save New Product" class="btn btn-primary">
+              </form>
+        </div>
+        <%- include('Partials/Footer'); %>
+    </body>
+</html>
